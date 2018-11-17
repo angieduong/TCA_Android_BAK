@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
+
+    <FrameLayout
+        android:id="@+id/content_frame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="@color/colorLandingBG"
+            >
+
+            <ImageView
+                android:id="@+id/iv_bg1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:visibility="gone"
+                android:scaleType="centerCrop"
+                android:src="@drawable/img_landing"
+                >
+            </ImageView>
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_controllers"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone"
+            android:orientation="vertical"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                >
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="3"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:layout_gravity="center_horizontal"
+                    android:text="@string/capital_toll_accounts"
+                    
+                    android:textColor="@android:color/white"
+                    android:textSize="29dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="3"
+                    />
+                <TextView
+                    android:id="@+id/tv_log_in"
+                    android:layout_width="226dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:paddingTop="6dp"
+                    android:paddingBottom="6dp"
+                    android:gravity="center"
+                    android:text="@string/capital_log_in"
+                    android:textColor="@android:color/white"
+                    android:textSize="26dp"
+                    android:background="@drawable/black_background_white_frame_bg"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="2"
+                    />
+                <TextView
+                    android:id="@+id/tv_sign_up"
+                    android:layout_width="226dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:paddingTop="6dp"
+                    android:paddingBottom="6dp"
+                    android:text="@string/capital_sign_up"
+                    android:gravity="center"
+                    android:textColor="@android:color/white"
+                    android:textSize="26dp"
+                    android:background="@drawable/black_background_white_frame_bg"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="2"
+                    />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                >
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:text="@string/capital_guests"
+                    android:textColor="@android:color/white"
+                    
+                    android:textSize="29dp"/>
+                <TextView
+                    android:id="@+id/tv_pay_toll_now"
+                    android:layout_width="226dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:paddingTop="6dp"
+                    android:paddingBottom="6dp"
+                    android:text="@string/capital_pay_toll_now"
+                    android:textColor="@android:color/white"
+                    android:textSize="26dp"
+                    android:background="@drawable/black_background_white_frame_bg"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                >
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:text="@string/capital_violations"
+                    android:textColor="@android:color/white"
+                    android:textSize="29dp"/>
+
+                <TextView
+                    android:id="@+id/tv_pay_violation"
+                    android:layout_width="226dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:paddingTop="6dp"
+                    android:paddingBottom="6dp"
+                    android:text="@string/capital_pay_violations"
+                    android:textColor="@android:color/white"
+                    android:textSize="26dp"
+                    android:background="@drawable/black_background_white_frame_bg"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    />
+
+                <LinearLayout
+                    android:id="@+id/ll_toll_calculator"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:background="@color/colorPrimary">
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_tca_calculator_white" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                        android:text="@string/toll_calculator"
+                        android:textColor="@android:color/white"
+                        android:textSize="26dp"/>
+                </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+        <ImageView
+            android:id="@+id/iv_menu"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:padding="@dimen/activity_horizontal_margin"
+            android:src="@drawable/ic_tca_menu_white"
+            android:visibility="gone"/>
+
+    </FrameLayout>
+    <LinearLayout
+        android:id="@+id/left_drawer"
+        android:layout_width="239dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:orientation="horizontal"
+        >
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:background="@color/colorPrimary">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="66dp"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:layout_centerVertical="true"
+                    android:text="@string/capital_menu"
+                    android:textColor="@android:color/black"
+                    android:textSize="22sp"
+                    />
+
+                <ImageView
+                    android:id="@+id/iv_close_menu"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="10dp"
+                    android:padding="10dp"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/ic_tca_close_white" />
+
+            </RelativeLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/white"
+                />
+            <ListView
+                android:id="@+id/lv_menu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:choiceMode="singleChoice"
+                android:divider="@android:color/transparent"
+                android:dividerHeight="0dp"
+                />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                >
+                <ImageView
+                    android:id="@+id/ivLogo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:src="@drawable/ic_tca_logo_black" />
+
+                <TextView
+                    android:id="@+id/tv_version"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="3dp"
+                    android:layout_marginBottom="3dp"
+                    android:layout_alignParentBottom="true"
+                    android:text=""
+                    android:textColor="@android:color/black"
+                    android:textSize="12sp"
+                    />
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@android:color/white"/>
+    </LinearLayout>
+</android.support.v4.widget.DrawerLayout>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#f9c132</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorGray">#FF7F7F7F</color>
+    <color name="colorLightGray">#FFDDDDDD</color>
+    <color name="colorDarkGray">#FF5F5F5F</color>
+    <color name="colorBgGrayDark">#FF929292</color>
+    <color name="colorBgGray">#FFADADAD</color>
+    <color name="colorBgGrayLight">#FFF0F0F0</color>
+    <color name="colorRed">#FF0000</color>
+    <color name="colorBlue">#0000FF</color>
+    <color name="colorCalculateTollBG">#FFE2E8EA</color>
+
+    <color name="colorInvoiceYear">#888888</color>
+    <color name="colorInvoiceMonthBg">#F4F4F4</color>
+    <color name="colorInvoiceMonthText">#616161</color>
+    <color name="colorLandingBG">#0945A5</color>
+    <color name="colorViolationSelectedBG">#FF7F7F7F</color>
+    <color name="colorViolationDueDate">#ffcc0000</color>
+</resources>

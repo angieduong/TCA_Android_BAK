@@ -1,0 +1,645 @@
+<resources>
+    <string name="app_name">Toll Roads</string>
+    <string name="toll_calculator">Toll Estimator</string>
+    <string name="capital_guests">GUESTS</string>
+    <string name="capital_pay_toll_now">PAY TOLL NOW</string>
+    <string name="capital_toll_accounts">TOLL ACCOUNTS</string>
+    <string name="capital_log_in">LOG IN</string>
+    <string name="capital_sign_up">SIGN UP</string>
+    <string name="capital_menu">MENU</string>
+    <string name="compare_accounts">Compare Accounts</string>
+    <string name="help">Help</string>
+    <string name="feedback">Feedback</string>
+    <string name="privacy">Privacy</string>
+    <string name="term_of_use">Terms of Use</string>
+    <string name="our_call_center_number">Our Call Center number:</string>
+    <string name="do_you_like_this_app">Do you like this app?</string>
+    <string name="i_like_this_app">I like this app</string>
+    <string name="there_is_a_problem">There is a problem</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="capital_user_name">Username</string>
+    <string name="user_name">username</string>
+    <string name="capital_password">Password</string>
+    <string name="min_5_characters">min 5 characters</string>
+    <string name="forgot_user_name_password"><u>Forgot Username/Password?</u></string>
+    <string name="log_in">Log In</string>
+    <string name="cancel">Cancel</string>
+    <string name="email_empty_warning">Email is required.</string>
+    <string name="email_invalid_warning">Email is not valid</string>
+    <string name="password_empty_warning">Password is required.</string>
+    <string name="password_too_short_warning">Password must be at least 5 characters long</string>
+    <string name="network_error_retry">Oops, something went wrong. Please check your internet connection.</string>
+    <string name="ok">OK</string>
+    <string name="message_invalid_token_and_logout_message">Session has expired</string>
+    <string name="dialog_title_error">Error</string>
+    <string name="dialog_title_warning">Warning</string>
+    <string name="STRING_INVALID_TOKEN">invalid tokenID</string>
+    <string name="STRING_INVALID_TOKEN_2">invalid tokenID.</string>
+    <string name="STRING_INVALID_TOKEN_SPAINISH">ficha de ID inv�lida</string>
+    <string name="STRING_EXPIRE_TOKEN">Session has expired</string>
+    <string name="STRING_EXPIRE_TOKEN_2">Session has expired.</string>
+    <string name="STRING_EXPIRE_TOKEN_SPAINISH">ficha de ID inv�lida</string>
+
+    <string name="road">Road</string>
+    <string name="building_type_prompt">Select a road</string>
+    <string name="start">Start</string>
+    <string name="end">End</string>
+    <string name="pay_by">Pay By</string>
+    <string name="vehicles">Vehicles</string>
+    <string name="select_entry_point">Select Entry Point</string>
+    <string name="select_exit_point">Select Exit Point</string>
+    <string name="my_account">My Account</string>
+    <string name="recent_tolls_empty">You have no recent tolls.</string>
+    <string name="payments">Payments</string>
+    <string name="log_out">Log Out</string>
+    <string name="legal">Legal</string>
+    <string name="transponders">Transponders</string>
+    <string name="log_in_information">Log In Information</string>
+    <string name="contact_information">Contact Information</string>
+    <string name="recent_tolls">Recent Tolls</string>
+    <string name="add_another_vehicle">Add another vehicle</string>
+    <string name="make_a_payment">Make a Payment</string>
+    <string name="payment_method">Payment Method</string>
+    <string name="recent_payments">Recent Payments</string>
+    <string name="add_another_payment_method">Add another payment method</string>
+    <string name="credit_card">Credit Card</string>
+    <string name="electronic_check">Electronic Check</string>
+    <string name="request_transponders">Request Transponders</string>
+    <string name="request_return">Request Return</string>
+    <string name="request_mounting_strips">Request Mounting Strips</string>
+    <string name="request_exchange">Request Exchange</string>
+    <string name="report_lost_or_stolen">Report Lost/Stolen</string>
+    <string name="done">Done</string>
+    <string name="request_transponder">Request Transponder</string>
+    <string name="request_additional_transponders">Request additional transponders</string>
+    <string name="type">Type</string>
+    <string name="quantity">Qty</string>
+    <string name="windshield">Windshield Transponder</string>
+    <string name="external_or_license_plate">External/License Plate</string>
+    <string name="save">Save</string>
+    <string name="first">First</string>
+    <string name="last">Last</string>
+    <string name="address_1">Address 1</string>
+    <string name="address_2">Address 2</string>
+    <string name="city">City</string>
+    <string name="state">State</string>
+    <string name="zip_code">Zip Code</string>
+    <string name="country">Country</string>
+    <string name="email">Email</string>
+    <string name="primary_no">Primary No.</string>
+    <string name="secondary_no">Secondary No.</string>
+    <string name="receive_text_alert">I would like to receive text alerts.</string>
+    <string name="re_type">Re-type</string>
+    <string name="security_question_1">Security Question 1</string>
+    <string name="security_question_2">Security Question 2</string>
+    <string name="security_question_3">Security Question 3</string>
+    <string name="four_numbers">4 numbers</string>
+    <string name="phone_access_pin">Phone Access PIN</string>
+    <string name="license_plate_no">License Plate</string>
+    <string name="confirm_plate_no">Confirm Plate</string>
+    <string name="year">Year</string>
+    <string name="make">Make</string>
+    <string name="model">Model</string>
+    <string name="is_a_rental">Is this a rental/loaner?</string>
+    <string name="start_date">Start Date</string>
+    <string name="end_date">End Date</string>
+    <string name="tap_to_change">Tap to Change</string>
+    <string name="new_vehicle">New Vehicle</string>
+    <string name="no_space_symbols">no spaces/symbols</string>
+    <string name="vehicle_year">vehicle year</string>
+    <string name="vehicle_make">vehicle make</string>
+    <string name="vehicle_model">vehicle model</string>
+    <string name="new_vehicle_hint">Enter information about the new vehicle on your account.</string>
+    <string name="make_payment_hint">Select a payment method and enter an amount</string>
+    <string name="pay_method">Pay Method</string>
+    <string name="cvv">CVV</string>
+    <string name="amount">Amount</string>
+    <string name="dollar_sign">$</string>
+    <string name="pay_now">Pay Now</string>
+    <string name="card_no">Card No.</string>
+    <string name="name_on_card">Name</string>
+    <string name="expiration_date">Expiry</string>
+    <string name="mm_yy">MMYY</string>
+    <string name="billing_zip_code">Zip code</string>
+    <string name="payment_order">Payment Order</string>
+    <string name="new_payment_method">New Payment Method</string>
+    <string name="new_payment_method_hint">Enter your payment information.</string>
+    <string name="card_no_hint">1234567812345678</string>
+    <string name="full_name">full name</string>
+    <string name="zip_code_hint">zip code</string>
+    <string name="replenishment_amount">Replenishment Amount</string>
+    <string name="routing_no">Routing No.</string>
+    <string name="routing_no_hint">9 digits</string>
+    <string name="account_no">Account No.</string>
+    <string name="first_name">First Name</string>
+    <string name="first_name_hint">john</string>
+    <string name="last_name">Last Name</string>
+    <string name="last_name_hint">smith</string>
+    <string name="step_account_info">Step 1: Account Info</string>
+    <string name="sign_up_account_info_hint1">Please select the account type.</string>
+    <string name="sign_up_account_info_hint2">Not sure which account is right for you?</string>
+    <string name="compare_accounts_with_link"><u>Compare Accounts.</u></string>
+    <string name="create_user_name_password">Create a username and password.</string>
+    <string name="re_type_email">Re-type Email</string>
+    <string name="email_hint">name@example.com</string>
+    <string name="receive_email_alert">My Communication Preferences</string>
+    <string name="step_contact_info">Step 2: Contact Info</string>
+    <string name="sign_up_contact_info_hint">Enter the contact information of the accountholder.</string>
+    <string name="address_1_hint">billing address 1</string>
+    <string name="address_2_hint">(optional) address 2</string>
+    <string name="phone_no_hint">0000000000</string>
+    <string name="vehicle_index">Vehicle %1$s</string>
+    <string name="step_vehicle_info">Step 3: Vehicle Info</string>
+    <string name="step_payment_info">Step 4: Payment Info</string>
+    <string name="request_transponders_hint">How many transponders do you need?</string>
+    <string name="confirm_account_detail">Confirm the details of your account type.</string>
+    <string name="fastrak_account">FasTrak Account</string>
+    <string name="express_charge_account">ExpressAccount Charge</string>
+    <string name="express_prepaid_account">ExpressAccount Prepaid</string>
+    <string name="express_invoice_account">ExpressAccount Invoice</string>
+    <string name="express_account_description">A transponder is not issued, and ExpressAccounts are only valid on State Routes 73, 133, 241, or 261.</string>
+    <string name="fastrak_account_description">You are required to maintain a prepaid balance and mount a transponder. This account is accepted on all toll facilities in CA.</string>
+    <string name="agree">Agree</string>
+    <string name="customer_agreement">Customer Agreement</string>
+    <string name="one_time_toll">Pay Toll</string>
+    <string name="one_time_toll_vehicle_hint">Please enter the license plate number and other information for your vehicle</string>
+    <string name="vehicle_class">Vehicle Class</string>
+    <string name="trailer_information">Trailer Information(optional)</string>
+    <string name="plate_no">Plate No.</string>
+    <string name="add_another_trip">Add another trip</string>
+    <string name="trip_date">Trip Date</string>
+    <string name="trip_date_hint">MM/DD/YYYY</string>
+    <string name="ott_contact_info_hint2">Enter your information.</string>
+    <string name="ott_contact_info_hint1">Pay tolls up to 5 days before or 5 days after your trip.</string>
+    <string name="total_charge">Total Tolls: $%1$.2f</string>
+    <string name="ott_payment_info_hint">Enter your payment information. You\'ll be able to confirm your toll payment later.</string>
+    <string name="cvv_hint">3 or 4 digits</string>
+    <string name="pay">Pay</string>
+    <string name="ott_summary_hint">Review the information below.</string>
+    <string name="vehicle">Vehicle</string>
+    <string name="license_plate">License Plate</string>
+    <string name="trip_details">Trip Details</string>
+    <string name="date">Date</string>
+    <string name="payment">Payment</string>
+    <string name="card_number">Card Number</string>
+    <string name="exp_date">Ext. Date</string>
+    <string name="contact_name">Contact Name</string>
+    <string name="contact_address">Contact Address</string>
+    <string name="toll_payment_successful">Toll Payment Successful - Thank You</string>
+    <string name="your_confirmation_number">Your Confirmation number is</string>
+    <string name="email_receipt_hint">Your receipt has been emailed to you.</string>
+    <string name="will_email_receipt_hint">Receipts will be emailed to you.</string>
+    <string name="forgot_password">Forgot Password</string>
+    <string name="enter_account_number_username">Enter your account number or username.</string>
+    <string name="forgot_user_name">Forgot Username</string>
+    <string name="security_questions">Security Questions</string>
+    <string name="security_questions_hint">Please answer 1 of the 3 security questions to reset.</string>
+    <string name="your_answer">your answer</string>
+    <string name="user_name_empty_warning">Username is required.</string>
+    <string name="password_not_match_warning">The password and password confirmation do not match.</string>
+    <string name="address_hint">billing address</string>
+    <string name="address">Address</string>
+    <string name="email_not_match_warning">The email and the email confirmation do not match.</string>
+    <string name="primary_no_empty_warning">Primary no. is required.</string>
+    <string name="zip_code_empty_warning">Zip code is required.</string>
+    <string name="city_empty_warning">City is required.</string>
+    <string name="address_1_empty_warning">Mailing address is required.</string>
+    <string name="last_name_empty_warning">Last name is required.</string>
+    <string name="first_name_empty_warning">First name is required.</string>
+    <string name="license_plate_empty_warning">License plate is required.</string>
+    <string name="year_empty_warning">Year is required.</string>
+    <string name="make_empty_warning">Make is required.</string>
+    <string name="model_empty_warning">Model is required.</string>
+    <string name="end_date_empty_warning">Rental vehicle\'s end date is required.</string>
+    <string name="start_date_empty_warning">Start date is required.</string>
+    <string name="license_plate_not_match_warning">The license plate and the plate confirmation do not match.Please enter the license plate numbers again.</string>
+    <string name="end_date_warning1">End date should be equal to or later than Start date.</string>
+    <string name="end_date_warning2">End date should be equal to or later than today\'s date.</string>
+    <string name="end_date_warning3">End day cannot be greater than 7 days from Start Date for the rental vehicles.</string>
+    <string name="routing_no_empty_warning">Routing no. is required.</string>
+    <string name="account_no_empty_warning">Account no. is required.</string>
+    <string name="billing_zip_code_empty_warning">Zip code is required.</string>
+    <string name="expiration_date_empty_warning">Expiry is required.</string>
+    <string name="name_on_card_empty_warning">Name is required.</string>
+    <string name="cvv_empty_warning">CVV is required.</string>
+    <string name="card_no_empty_warning">Card no. is required.</string>
+    <string name="amount_empty_warning">Amount is required.</string>
+    <string name="successfully_paid">Successfully paid</string>
+    <string name="successfully_saved">Successfully saved</string>
+    <string name="trailer_plate_no_empty_warning">Trailer plate no. is required for more than 2-axle vehicle.</string>
+    <string name="ott_account_exist_error">\"The license plate entered is already associated with an existing account. Please use your account to pay for the trip.</string>
+    <string name="delete">Delete</string>
+    <string name="successfully_deleted">Successfully deleted</string>
+    <string name="successfully_requested">Successfully requested</string>
+    <string name="transponder_empty_warning">You don\'t have any transponders.</string>
+    <string name="report_empty_warning">Please select at least one transponder.</string>
+    <string name="security_question_hint">Please enter your current password to modify the security questions or phone access PIN.</string>
+    <string name="current_password">Current Password</string>
+    <string name="new_password">New Password</string>
+    <string name="verify_password">Verify Password</string>
+    <string name="current_password_empty_warning">Current Password is required.</string>
+    <string name="pin_empty_warning">Pin is required.</string>
+    <string name="answer1_empty_warning">Answer 1 is required.</string>
+    <string name="answer2_empty_warning">Answer 2 is required.</string>
+    <string name="answer3_empty_warning">Answer 3 is required.</string>
+    <string name="trip_index">Trip %1$d</string>
+    <string name="select_point">Select Point</string>
+    <string name="trip_date_empty_warning">Trip Date is required.</string>
+    <string name="start_point_empty_warning">Start point is required.</string>
+    <string name="end_point_empty_warning">End point is required</string>
+    <string name="trip_amount">Trip amount: $%1$.2f</string>
+    <string name="sign_up_security_title">Step 2: Security</string>
+    <string name="sign_up_security_hint">Please choose and answer 3 security questions for your account.</string>
+    <string name="sign_up_pin_hint">Please enter a 4 digit PIN. This will be used to access the call center.</string>
+    <string name="pin_hint">Enter a four-digit Personal Identification Number that will authenticate the use of your account when accessed by telephone.</string>
+    <string name="remember_log_in">Remember my login</string>
+    <string name="report_lost">Report Lost</string>
+    <string name="report_stolen">Report Stolen</string>
+    <string name="security_info">Security Info</string>
+    <string name="my_balance">My Balance: $%1$.2f</string>
+    <string name="ott_rates_hint">Your toll for this one-way trip:</string>
+    <string name="weekends">Weekend Rate</string>
+    <string name="off_peak">Off-peak Rate</string>
+    <string name="evening_peak">Peak Rate</string>
+    <string name="current_balance">Current Balance: $%1$.2f</string>
+    <string name="balance_due">Balance Due: $%1$.2f</string>
+    <string name="available_toll_credit">Available Toll Credit: $%1$.2f</string>
+    <string name="payment_index">Payment %1$d</string>
+    <string name="request_items">Request Items</string>
+    <string name="request_additional_items">Request additional items</string>
+    <string name="sign_up_vehicle_hint">Enter the information for every vehicle that should have its tolls charged to the account.</string>
+    <string name="ott_missing_email_hint">If you would like to receive a receipt, please press Cancel to enter your email. If not, please press Ok to proceed to the next page.</string>
+    <string name="continue_ott">Continue Pay</string>
+    <string name="yes">Yes</string>
+    <string name="go_sign_up_hint">Would you like to sign up?</string>
+    <string name="account_no_email_empty_warning">Please enter your account number of associated email address to proceed.</string>
+    <string name="all_answer_empty_warning">Please answer at least one security question to proceed.</string>
+    <string name="answer_sec_questions_successfully">Please check your email to reset your password.</string>
+    <string name="reset_password">Reset Password</string>
+    <string name="re_type_password">Re-Type Password</string>
+    <string name="successfully_reset">Successfully reset</string>
+    <string name="account_no_hint">12 digits</string>
+    <string name="rental_car_title">The license plate entered indicates that this is a rental vehicle.</string>
+    <string name="rental_car_hint">Please enter the start and end date of the rental period.</string>
+    <string name="password">password</string>
+    <string name="password_hint">6-25 characters. Must contain at least 1 number and 1 letter.</string>
+    <string name="user_name_hint">4-20 characters.</string>
+    <string name="optional">(optional)</string>
+    <string name="capital_continue">Continue</string>
+    <string name="trailer_state">Trailer State</string>
+    <string name="trailer_country">Trailer Country</string>
+    <string name="trailer_license_plate">Trailer Plate</string>
+    <string name="sign_up_result_hint">Thank you for signing up for an account with The Toll Roads. Your account number is %1$s.</string>
+    <string name="trip_cost">Trip Cost</string>
+    <string name="second">Second</string>
+    <string name="third">Third</string>
+    <string name="pin_length_error">Phone access PIN must be 4 digits.</string>
+    <string name="remove_payment_method">Remove Payment Method</string>
+    <string name="remove_payment_method_title">Confirm Remove Payment Method</string>
+    <string name="remove_payment_method_content">Are you sure you\'d like to remove this payment method?</string>
+    <string name="remove_vehicle">Remove Vehicle</string>
+    <string name="remove_vehicle_title">Confirm Remove Vehicle</string>
+    <string name="remove_vehicle_content">Are you sure you\'d like to remove this vehicle?</string>
+    <string name="freeway_warning">You can enter and exit the 241 Toll Road from the 91 Freeway. To use the 91 Express Lanes, you must pay using FasTrak.</string>
+    <string name="contact_information_saved">Contact information saved</string>
+    <string name="login_information_saved">Login information saved</string>
+    <string name="fastrak_sign_up_vehicle_description">FasTrak drivers are required by law to have a transponder mounted to their vehicle.</string>
+    <string name="all_account_sign_up_vehicle_description">Tolls for the vehicles entered below will be charged to your account. </string>
+    <string name="report_stolen_lost_confirmation">There is a $30.00 fee for a %1$s transponder. Are you sure you want to report %2$s as %3$s?</string>
+    <string name="optional_colon">Optional:</string>
+    <string name="round_trip_hint">A round trip must be entered as two trips. <b>NOTE:</b> No refunds available. Please verify your entry and exit points. Any overpayments become property of The Toll Roads.</string>
+    <string name="no">No</string>
+    <string name="lost">lost</string>
+    <string name="stolen">stolen</string>
+    <string name="transponder">transponder</string>
+    <string name="transponders_lower_case">transponders</string>
+    <string name="successfully_reported_lost">Successfully reported lost transponder</string>
+    <string name="successfully_reported_stolen">Successfully reported stolen transponder</string>
+    <string name="successfully_requested_return">Successfully requested return transponder</string>
+    <string name="successfully_requested_exchange">Successfully requested exchange transponder</string>
+    <string name="successfully_requested_transponder">Successfully requested transponder</string>
+    <string name="request_successful">Request successful</string>
+    <string name="report_successful">Report successful</string>
+    <string name="lost_or_stolen">lost/stolen</string>
+    <string name="payment_successful">Payment successful</string>
+    <string name="road_alerts">Road alerts</string>
+    <string name="news_and_promotions">Toll Roads Rewards, Promotions, News and Information about Products and Services.</string>
+    <string name="name">Name</string>
+    <string name="warning">Warning</string>
+    <string name="faq">FAQ</string>
+    <string name="service_centers">Service Centers</string>
+    <string name="sign_up_for_fastrak">Sign Up for FasTrak</string>
+    <string name="other">Other</string>
+    <string name="attention">Attention</string>
+    <string name="version">Version</string>
+    <string name="build">Build</string>
+    <string name="promo_code_cap">Have a promotion code? Enter it below.</string>
+    <string name="promo_code_hint">Enter promo code here(optional)</string>
+    <string name="settings">Settings</string>
+    <string name="fingerprint_login">Fingerprint Login</string>
+    <string name="fingerprint_login_enabled">Fingerprint Login enabled!</string>
+    <string name="fingerprint_for_tca">LOG IN</string>
+    <string name="fingerprint_description">Confirm Fingerprint to log in</string>
+    <string name="fingerprint_hint">Touch sensor</string>
+    <string name="statement">Statement</string>
+    <string name="start_date_with_colon">Start Date:</string>
+    <string name="end_date_with_colon">End Date:</string>
+    <string name="invoices">Invoice</string>
+    <string name="email_successfully_sent">Email successfully sent</string>
+    <string name="toll_roads_center">The Toll Roads Irvine Service Center</string>
+    <string name="toll_roads_address">125 Pacifica, Irvine, CA 92618 U.S.A.</string>
+    <string name="invoice_end_date_empty_warning">End date is required.</string>
+    <string name="fingerprint_setting_hint">To enable Fingerprint Login, you must first set up fingerprint authentication for your device.</string>
+    <string name="choose_option">Choose one of the following options:</string>
+    <string name="calculate_for_me">Calculate My Tolls For Me</string>
+    <string name="calculate_for_me_hint">Select date range(within the last 7 days).\n \nWe\'ll calculate your tolls and provide a total.\n<font color="#ffff0000">If vehicle has an existing toll balance, it will be added to your total.</font>\n\nA receipt with detailed trip info will be emailed to you after you pay.\n<font color="#ffff0000">Due to privacy laws, we cannot provide detailed trip information before you pay.</font>\n\nCheck back for tolls incurred in the last 48 hours.\n<font color="#ffff0000">Due to processing times, it may take up to 48 hours for tolls to be processed and linked to your license plate number. If you drove The Toll Roads within the last 48 hours, you will need to check back for outstanding tolls.</font></string>
+    <string name="calculate_myself">I\'ll Calculate My Tolls</string>
+    <string name="calculate_myself_hint">Enter detailed trip information\nCompile list of tolls owed\nPay tolls\nReceive a receipt via email for all tolls paid</string>
+    <string name="next">Next</string>
+    <string name="calculate_for_me_page_hint">Select a date range within the last 7 days and we will calculate your tolls for you. A receipt with detailed trip information will be emailed to you after you pay.</string>
+    <string name="wow">Wow!</string>
+    <string name="no_toll_hint">You\'re quick! We haven\'t processed any tolls yet for this license plate — sometimes it takes up to 48 hours.\n\nFor your convenience, you can provide your payment information now and we\'ll charge your tolls once they are processed.</string>
+    <string name="success">Success!</string>
+    <string name="your_total_due">Your total due for this period is: $%1$.2f</string>
+    <string name="privacy_popup"><font color="#ffff0000">Due to privacy laws, we cannot provide detailed trip information before you pay.\n\nDue to processing times, it may take up to 48 hours for tolls to be processed and linked to your license plate number. If you drove The Toll Roads within the last 48 hours, you will need to check back for outstanding tolls.</font></string>
+    <string name="i_understand">I understand</string>
+    <string name="must_check_one">Must check one:</string>
+    <string name="save_30_days">Keep credit card on file for 30 days or less.</string>
+    <string name="save_forever">Keep credit card on file to cover all future tolls.</string>
+    <string name="not_save">Do not keep this credit card on file for future toll payments.</string>
+    <string name="not_save_hint">I understand that it may take up to 48 hours for tolls to be processed and linked to my license plate number. I need to check back for outstanding tolls.</string>
+    <string name="save_30_days_hint">This will cover tolls not yet processed or new tolls incurred by the vehicle. \nAccumulated tolls will be charged to the credit card every 5 days and a detailed receipt will be emailed.</string>
+    <string name="specify_interval">Please specify the time interval your credit card will cover charges (Max 7 days before and 30 days from today):</string>
+    <string name="save_forever_hint">Tolls will be charged individually and a detailed monthly statement will be sent via email. This is called ExpressAccount Charge and the ExpressAccount Charge toll for this trip is: $%1$.2f</string>
+    <string name="enter_detail">Enter details to set up ExpressAccount Charge:</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="read_and_agree_terms_privacy">By submitting this info, I acknowledge that I have read and agree to <a href="https://secure.thetollroads.com/mobileterms.html">the Customer Agreement Terms &amp; Conditions</a>.\n</string>
+    <string name="receive_email_alert_optional">My Communication Preferences(optional)</string>
+
+    <string name="phone_number_hint">phone number</string>
+    <string name="phone_no_empty_warning">Phone number is required.</string>
+    <string name="terms_privacy_not_checked_warning">Please check the terms and privacy.</string>
+    <string name="toll_dates">Toll Dates</string>
+    <string name="vehicle_type">Vehicle Type</string>
+    <string name="save_for_auto_populate">Save this info to autopopulate future forms the next time you log in.</string>
+    <string name="your_express_charge_account">Your new <font color="#ff000000"><b>ExpressAccount Charge</b></font> info:</string>
+    <string name="user_name_cap">Username</string>
+    <string name="billing_address">Billing Address</string>
+    <string name="email_address">Email Address</string>
+
+    <string name="ott_payment_hint_no_save"><font color="#ff000000"><b>Your credit card will not be kept on file for future toll payments.</b></font> I understand that it may take up to 48 hours for tolls to be processed and linked to my license plate number. I need to check back for outstanding tolls.</string>
+    <string name="ott_payment_hint_30_days"><font color="#ff000000"><b>Your credit card will be kept on file for the dates you specified to cover tolls not yet processed or new tolls incurred by the vehicle.</b></font> Accumulated tolls will be charged to the credit card every 5 days and a detailed receipt will be emailed.</string>
+    <string name="ott_payment_hint_forever"><font color="#ff000000"><b>Your credit card will be kept on file to cover all future tolls.</b></font> Tolls will be charged individually and a detailed monthly statement will be sent via email. This is called ExpressAccount Charge and the ExpressAccount Charge toll for this trip is: $%1$.2f</string>
+    <string name="fingerprint_payment">Confirm Fingerprint to retrieve payment info.</string>
+    <string name="fingerprint_payment_enabled">Fingerprint to retieve payment info enabled.</string>
+    <string name="capital_pay_violations">PAY VIOLATIONS</string>
+    <string name="capital_violations">VIOLATIONS</string>
+    <string name="violation_log_in_hint">To pay or monitor the status of a violation(s), please log in using the Reference Number and a Violation Number located on the Notice of Toll Evasion.</string>
+    <string name="reference_number">Reference Number / Username</string>
+    <string name="pay_violation">Pay Violation(s)</string>
+    <string name="violation_number">Violation Number / Password</string>
+    <string name="tap_to_select_entry">Tap to select entry for payment.</string>
+    <string name="violation_info_empty">You don\'t have any unpaid violations.</string>
+    <string name="toast_violation_logged_in">You are now logged in to your violation account, where you can pay violations.</string>
+    <string name="violation_due_by">Due: %1$s</string>
+    <string name="dashboard">Dashboard</string>
+    <string name="violation_contact_info_hint">Enter your contact information.</string>
+    <string name="confirm">Confirm</string>
+    <string name="phone">Phone</string>
+    <string name="total_amount_due">Total Amount Due: %1$s</string>
+    <string name="samsung_pay">Samsung Pay</string>
+    <string name="google_pay">Google Pay</string>
+    <string name="violation_select_payment_hint">Select your payment method.</string>
+    <string name="violation_payment_info_hint">Enter your payment information.\nYou\'ll be able to confirm your payment later.</string>
+    <string name="expiry">Expiry</string>
+    <string name="cvv2">CVV2</string>
+    <string name="violation_summary_hint">Please confirm your payment.</string>
+    <string name="card_information">Card Information</string>
+    <string name="violations_to_pay">Violation(s) To Pay(%1$d)</string>
+    <string name="check_information">Check Information</string>
+    <string name="home">Home</string>
+    <string name="copy_of_receipt">A copy of the receipt has been sent to the email provided.</string>
+    <string name="violations_paid">Violation(s) Paid(%1$d)</string>
+    <string name="statement_hint">To generate, select Start and End Dates.</string>
+    <string name="additional_access">Additional Access to My Account:</string>
+    <string name="additional_access_hint">You give customer service permission to speak with this person about your account and this person can act on your behalf.</string>
+    <string name="no_dates_selected">No dates selected</string>
+    <string name="newest">Newest</string>
+    <string name="show_all">Show All</string>
+    <string name="plate">Plate</string>
+    <string name="transponder_first_capital">Transponder</string>
+    <string name="enter_amount_wish_to_pay">Enter the amount you wish to pay.</string>
+    <string name="make_payment">Make Payment</string>
+    <string name="pay_type">Pay Type</string>
+    <string name="total_amount">Total Amount: %1$s</string>
+    <string name="make_payment_new_hint">Select a pay method and enter your payment information.</string>
+
+    <string name="pwg_status_unavailable" translatable="false">Unfortunately, Pay with Google is not available on this phone.</string>
+    <string name="pwg_status_checking" translatable="false">Checking if Pay with Google is available...</string>
+    <string name="payments_show_name" translatable="false">Successfully received payment data for %s!</string>
+    <string name="pwg_status_error" translatable="false">Unfortunately, Pay with Google has an issue, please try again later.</string>
+    <string-array name="road_type_arrays">
+        <item>133/241/261</item>
+        <item>73</item>
+    </string-array>
+
+    <string-array name="entry_type_arrays">
+        <item>Select Entry Point</item>
+    </string-array>
+
+    <string-array name="exit_type_arrays">
+        <item>Select Exit Point</item>
+    </string-array>
+
+    <string-array name="payment_method_arrays">
+        <item>One-Time-Toll</item>
+        <item>FasTrak</item>
+        <item>ExpressAccount</item>
+    </string-array>
+
+    <string-array name="vehicle_type_arrays">
+        <item>2-axle or motorcycles</item>
+        <item>3 or 4-axle</item>
+        <item>5+ axle</item>
+    </string-array>
+
+    <string-array name="vehicle_type_simple_arrays">
+        <item>2-axle</item>
+        <item>3 or 4-axle</item>
+        <item>5+ axle</item>
+    </string-array>
+
+    <string-array name="transponder_type_arrays">
+        <item>Windshield Transponder</item>
+        <item>External Transponder</item>
+        <item>Mounting Strips</item>
+    </string-array>
+
+    <string-array name="sign_up_transponder_type_arrays">
+        <item>Windshield Transponder</item>
+        <item>External Transponder</item>
+    </string-array>
+
+    <string-array name="transponder_number_arrays">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+    </string-array>
+
+    <string-array name="payment_order_arrays">
+        <item>First</item>
+        <item>Second</item>
+        <item>Third</item>
+    </string-array>
+
+    <string-array name="pay_method_arrays">
+        <item>Credit Card</item>
+        <item>Electronic Check</item>
+    </string-array>
+
+    <string-array name="replenishment_amount_arrays">
+        <item>$30</item>
+        <item>$60</item>
+        <item>$100</item>
+    </string-array>
+
+    <string-array name="country_arrays">
+        <item>United States</item>
+        <item>Canada</item>
+        <item>Mexico</item>
+        <item>International</item>
+    </string-array>
+
+    <string-array name="united_states_arrays">
+        <item>CA</item>
+        <item>AK</item>
+        <item>AL</item>
+        <item>AR</item>
+        <item>AS</item>
+        <item>AZ</item>
+        <item>CO</item>
+        <item>CT</item>
+        <item>DC</item>
+        <item>DE</item>
+        <item>FM</item>
+        <item>FL</item>
+        <item>GA</item>
+        <item>GU</item>
+        <item>HI</item>
+        <item>IA</item>
+        <item>ID</item>
+        <item>IL</item>
+        <item>IN</item>
+        <item>KS</item>
+        <item>KY</item>
+        <item>LA</item>
+        <item>MA</item>
+        <item>MD</item>
+        <item>ME</item>
+        <item>MH</item>
+        <item>MI</item>
+        <item>MN</item>
+        <item>MO</item>
+        <item>MP</item>
+        <item>MS</item>
+        <item>MT</item>
+        <item>NC</item>
+        <item>ND</item>
+        <item>NE</item>
+        <item>NH</item>
+        <item>NJ</item>
+        <item>NM</item>
+        <item>NV</item>
+        <item>NY</item>
+        <item>OH</item>
+        <item>OK</item>
+        <item>OR</item>
+        <item>PA</item>
+        <item>PR</item>
+        <item>PW</item>
+        <item>RI</item>
+        <item>SC</item>
+        <item>SD</item>
+        <item>TN</item>
+        <item>TX</item>
+        <item>US GOVT</item>
+        <item>UT</item>
+        <item>VA</item>
+        <item>VI</item>
+        <item>VT</item>
+        <item>WA</item>
+        <item>WI</item>
+        <item>WV</item>
+        <item>WY</item>
+
+
+    </string-array>
+
+    <string-array name="canada_provinces_arrays">
+        <item>ON</item>
+        <item>QC</item>
+        <item>BC</item>
+        <item>AB</item>
+        <item>MB</item>
+        <item>SK</item>
+        <item>NS</item>
+        <item>NB</item>
+        <item>NL</item>
+        <item>PE</item>
+        <item>NT</item>
+        <item>YT</item>
+        <item>NU</item>
+    </string-array>
+
+    <string-array name="mexico_states_arrays">
+        <item>Chihuahua</item>
+        <item>Sonora</item>
+        <item>Coahuila</item>
+        <item>Durango</item>
+        <item>Oaxaca</item>
+        <item>Tamaulipas</item>
+        <item>Jalisco</item>
+        <item>Zacatecas</item>
+        <item>Baja California Sur</item>
+        <item>Chiapas</item>
+        <item>Veracruz</item>
+        <item>Baja California</item>
+        <item>Nuevo León</item>
+        <item>Guerrero</item>
+        <item>San Luis Potosí</item>
+        <item>Michoacán</item>
+        <item>Campeche</item>
+        <item>Sinaloa</item>
+        <item>Quintana Roo</item>
+        <item>Yucatán</item>
+        <item>Puebla</item>
+        <item>Guanajuato</item>
+        <item>Nayarit</item>
+        <item>Tabasco</item>
+        <item>México</item>
+        <item>Hidalgo</item>
+        <item>Querétaro</item>
+        <item>Colima</item>
+        <item>Aguascalientes</item>
+        <item>Morelos</item>
+        <item>Tlaxcala</item>
+        <item>Mexico City</item>
+
+    </string-array>
+
+    <string-array name="forgot_type_arrays">
+        <item>Password</item>
+        <item>Username</item>
+    </string-array>
+
+    <string-array name="filter_arrays">
+        <item>Show All</item>
+    </string-array>
+
+</resources>

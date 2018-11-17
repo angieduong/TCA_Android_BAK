@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            >
+            <ImageView
+                android:id="@+id/iv_go_back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:src="@drawable/ic_tca_back"
+                android:layout_centerVertical="true"
+                />
+
+            <TextView
+                android:id="@+id/tv_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="@string/one_time_toll"
+                android:textSize="@dimen/title_text_size"
+                android:textColor="@android:color/black"/>
+
+            <TextView
+                android:id="@+id/tv_go_next"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:padding="16dp"
+                android:layout_centerVertical="true"
+                android:text="@string/next"
+                android:textSize="@dimen/title_text_size"
+                android:textColor="@android:color/black"/>
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:gravity="center_horizontal"
+            android:text="@string/calculate_for_me_page_hint"
+            android:textSize="15dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="16dp"
+            android:orientation="vertical"
+            android:background="@drawable/white_background_grey_round_frame_bg"
+            >
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+
+                <TextView
+                    android:layout_width="96dp"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:gravity="right"
+                    android:text="@string/start_date"
+                    android:textSize="16sp"
+                    android:textColor="@color/colorGray"
+                    />
+
+                <TextView
+                    android:id="@+id/tv_start_date"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="103dp"
+                    android:padding="10dp"
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp"
+                    android:text=""
+                    android:hint="@string/tap_to_change"/>
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/colorBgGray"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+
+                <TextView
+                    android:layout_width="96dp"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:gravity="right"
+                    android:text="@string/end_date"
+                    android:textSize="16sp"
+                    android:textColor="@color/colorGray"
+                    />
+
+                <TextView
+                    android:id="@+id/tv_end_date"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="103dp"
+                    android:padding="10dp"
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp"
+                    android:text=""
+                    android:hint="@string/tap_to_change"/>
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_no_toll_alert"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="20dp"
+            android:padding="16dp"
+            android:orientation="vertical"
+            android:visibility="gone"
+            android:background="@drawable/dark_grey_background_grey_round_frame_bg"
+            >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_width="22dp"
+                    android:layout_height="22dp"
+                    android:layout_gravity="center_vertical"
+                    android:src="@drawable/ic_notification"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="10dp"
+                    android:text="@string/wow"
+                    android:textSize="26dp"
+                    android:textColor="@color/colorPrimary"
+                    android:textStyle="bold"/>
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="26dp"
+                android:layout_marginTop="11dp"
+                android:text="@string/no_toll_hint"
+                android:textSize="16dp"
+                android:textColor="@android:color/white"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_toll_alert"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="20dp"
+            android:padding="16dp"
+            android:orientation="vertical"
+            android:visibility="gone"
+            android:background="@drawable/dark_grey_background_grey_round_frame_bg"
+            >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_width="22dp"
+                    android:layout_height="22dp"
+                    android:layout_gravity="center_vertical"
+                    android:src="@drawable/ic_notification"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="10dp"
+                    android:text="@string/success"
+                    android:textSize="26dp"
+                    android:textColor="@color/colorPrimary"
+                    android:textStyle="bold"/>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tv_total_due"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="26dp"
+                android:layout_marginTop="11dp"
+                android:text=""
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:textColor="@android:color/white"
+                />
+        </LinearLayout>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/layout_datePicker"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:focusableInTouchMode="true"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:clickable="true"
+        android:background="#7f000000"
+        android:visibility="gone"
+            >
+        <DatePicker
+            android:id="@+id/datePicker"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/white"
+            android:layout_centerInParent="true"
+            />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/datePicker"
+            android:background="@android:color/white"
+            >
+            <TextView
+                android:id="@+id/tv_datePicker_cancel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toLeftOf="@+id/tv_datePicker_ok"
+                android:padding="16dp"
+                android:text="@string/cancel"
+                android:textSize="16sp"
+                android:textColor="@color/colorPrimary" />
+
+            <TextView
+                android:id="@+id/tv_datePicker_ok"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:padding="16dp"
+                android:text="@string/ok"
+                android:textSize="16sp"
+                android:textColor="@color/colorPrimary" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

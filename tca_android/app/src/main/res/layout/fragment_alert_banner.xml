@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<TextView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/tv_alert"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:text="Your credit card will expire in 1 month."
+    android:textColor="@android:color/white"
+    android:textSize="15sp"
+    android:paddingTop="3dp"
+    android:paddingBottom="3dp"
+    android:background="@android:color/holo_red_dark"/>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:text=""
+        android:textSize="@dimen/title_text_size"
+        android:textColor="@android:color/black"
+        android:background="@color/colorPrimary"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:overScrollMode="always"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingBottom="16dp"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:id="@+id/tv_account_no"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+                android:layout_marginTop="56dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:text=""
+                android:textSize="22sp"
+                android:textColor="@android:color/black"
+                />
+
+            <TextView
+                android:id="@+id/tv_account_message"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+                android:layout_marginTop="40dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:text=""
+                android:textSize="16sp"
+                android:textColor="@color/colorDarkGray"
+                />
+
+            <TextView
+                android:id="@+id/tv_ok"
+                android:layout_width="200dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+
+                android:layout_marginTop="30dp"
+                android:text="@string/ok"
+                android:textSize="16sp"
+                android:textColor="@android:color/black"
+                android:background="@drawable/round_primary_bg"
+                />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
