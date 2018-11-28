@@ -8,11 +8,12 @@ repositories {
 
 buildscript {
     repositories {
-        jcenter()
         maven { url 'https://maven.fabric.io/public' }
+	    jcenter()
+        google()
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:2.3.2'
+        classpath 'com.android.tools.build:gradle:3.2.1'
         classpath 'io.fabric.tools:gradle:1.+'
     }
 }
@@ -35,6 +36,7 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
+    flavorDimensions "default"
 
     productFlavors {
         the_toll_roads {
